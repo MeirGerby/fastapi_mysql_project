@@ -21,8 +21,7 @@ class DBCennection:
                 host=setting.MYSQL_HOST,
                 password=setting.MYSQL_PASSWORD,
                 user=setting.MYSQL_USER, 
-                port=setting.MYSQL_PORT,
-                db_name=setting.MYSQL_DB
+                port=setting.MYSQL_PORT 
             ) 
             if self._connection.is_connected():
                 print("successfully connected to db")
